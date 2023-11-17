@@ -39,5 +39,19 @@ int main()
     vector<double> pxx = pwelch.Pwelch_Process(inp, w, overlap, nfft, WindowType::hamming);
     
 }
+```
 
+## Building
+1. Open the project in Visual Studio.
+2. Configure the project settings if needed.
+3. Build the project using the "Build" menu or by pressing `Ctrl + Shift + B`.
+4. Run the executable generated in the output directory or run in Visual Studio.
+5. make sure that libfftw3-3.dll is in project durectory
+
+## Contributing
+Feel free to contribute to this project by submitting issues or pull requests. Your feedback and contributions are highly appreciated.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
