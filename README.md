@@ -21,3 +21,22 @@ The Pwelch class is the core of this implementation. It includes a function Pwel
 - 
 - windowtype: Type of window function to be applied (hamming or hanning).
 - 
+
+### Example
+
+<pre>
+```cpp
+#include <iostream>
+#include "Pwelch.h"
+  
+int main()
+{
+    vector<doubleC> inp(8192);
+    readBinary("C:\\Users\\Hosein\\Desktop\\rand.bin", inp.data(), inp.size());
+    Pwelch pwelch;
+    vector<double> pxx = pwelch.Pwelch_Process(inp, 512, 256, 1024, WindowType::hamming);
+    int X = 2;
+}
+```
+</pre>
+
