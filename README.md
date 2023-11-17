@@ -7,6 +7,8 @@ This repository contains a C++ implementation of the Welch Power Spectral Densit
 ## Dependencies
 Make sure you have the FFTW3 library installed. You can find more information about FFTW3 [here](https://fftw.org).
 
+Download fftw from website and place in  Pwelch folder.
+
 ## Usage
 ### Pwelch Class
 The Pwelch class is the core of this implementation. It includes a function Pwelch_process with the following parameters:
