@@ -37,6 +37,5 @@ int main()
     readBinary("C:\\Users\\Hosein\\Desktop\\rand.bin", inp.data(), inp.size());
     Pwelch pwelch;
     vector<double> pxx = pwelch.Pwelch_Process(inp, 512, 256, 1024, WindowType::hamming);
-    int X = 2;
 }
 
