@@ -12,15 +12,15 @@ Make sure you have the FFTW3 library installed. You can find more information ab
 The Pwelch class is the core of this implementation. It includes a function Pwelch_process with the following parameters:
 
 - input: The input signal represented as std::complex<double>.
-- 
+  
 - w: the size of window
-- 
+  
 - overlap: Number of overlapping samples between segments.
-- 
+  
 - nfft: Number of points for the FFT.
-- 
+  
 - windowtype: Type of window function to be applied (hamming or hanning).
-- 
+
 
 ### Example
 
