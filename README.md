@@ -30,11 +30,14 @@ The Pwelch class is the core of this implementation. It includes a function Pwel
   
 int main()
 {
+     //Load your input
     vector<doubleC> inp(8192);
-    readBinary("C:\\Users\\Hosein\\Desktop\\rand.bin", inp.data(), inp.size());
+    int w = 512;
+    int overlap = 256;
+    int nfft = 1024;
     Pwelch pwelch;
-    vector<double> pxx = pwelch.Pwelch_Process(inp, 512, 256, 1024, WindowType::hamming);
-    int X = 2;
-}```
+    vector<double> pxx = pwelch.Pwelch_Process(inp, w, overlap, nfft, WindowType::hamming);
+    
+}
 
 
