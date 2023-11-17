@@ -24,7 +24,7 @@ The Pwelch class is the core of this implementation. It includes a function Pwel
 
 ### Example
 
-<pre>```c++
+```c++
 #include <iostream>
 #include "Pwelch.h"
   
@@ -36,5 +36,5 @@ int main()
     vector<double> pxx = pwelch.Pwelch_Process(inp, 512, 256, 1024, WindowType::hamming);
     int X = 2;
 }```
-</pre>
+
 
