@@ -48,7 +48,7 @@ int main()
 2. Configure the project settings if needed.
 3. Build the project using the "Build" menu or by pressing `Ctrl + Shift + B`.
 4. Run the executable generated in the output directory or run in Visual Studio.
-5. make sure that libfftw3-3.dll is in project durectory
+5. make sure that libfftw3-3.dll is in project directory
 
 ## Contributing
 Feel free to contribute to this project by submitting issues or pull requests. Your feedback and contributions are highly appreciated.
